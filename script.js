@@ -17,6 +17,7 @@ var btnBox = $("#btns")
 var scores = [];
 var score = 0;
 
+
 // start button - start page 
 
 startBtn.click(function () {

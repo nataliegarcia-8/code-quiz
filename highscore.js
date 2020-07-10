@@ -2,6 +2,7 @@ var scores = $("#scores");
 var userScore = $("#user-score");
 var highDiv = $("#highscores");
 var clear = $("#clear");
+var flag = 0;
 
 clear.click(function () {
     localStorage.clear();
