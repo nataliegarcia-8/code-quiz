@@ -32,7 +32,8 @@ startBtn.click(function () {
         count--;
         if (count === 0){
             clearInterval(interval);
-            alert("You're out of time!");
+            var redirect = $("#redirect")
+        redirect[0].click();
         }
     }, 1000);
     
@@ -63,6 +64,11 @@ function checkAnswer() {
     if( choice === correctAnswer) {
         score++;
     }
+    else {
+        count-=5;
+
+    }
+
     
     index++;
     if (index < questions.length) {

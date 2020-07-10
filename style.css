@@ -10,6 +10,7 @@ body {
     background-color: wheat;
 }
 
+/* start page */
 #startScreen {
 font-family: 'Work Sans', sans-serif;
 }
@@ -22,14 +23,14 @@ h1 {
     font-family: 'Fjalla One', sans-serif;
     margin: 30px;
 }
+
  /* question div */
 #question {
     font-size: 30px;
     font-family: 'Fjalla One', sans-serif;
     padding: 50px 30px 30px 50px;
-
-  
 }
+
  /* answer choices - buttons */
 button {
     background-color: purple;
@@ -41,6 +42,10 @@ button {
     margin: 10px;
 }
 
+/* timer */
+#count {
+    font-size: 30px;
+}
 /* Highscore Page */
 
 #start-over {
@@ -49,7 +54,7 @@ button {
 }
 
 #highscores {
-font-size: 30px;
+font-size: 40px;
  
 }
 

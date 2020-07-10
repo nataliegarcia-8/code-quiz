@@ -23,9 +23,8 @@ function displayScore() {
             var highscoreDiv = $("<div>");
             highscoreDiv.text(highscores[i]);
             highDiv.append(highscoreDiv);
-                
         }
-        highscores = [];
+        
     }
 if (highscores === null) {
     localStorage.setItem("highscores", JSON.stringify([]));
